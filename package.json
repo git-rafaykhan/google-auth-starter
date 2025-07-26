@@ -1,6 +1,6 @@
 {
   "name": "google-auth-starter",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "🚀 Google OAuth2 Starter Template CLI – Made with ❤️ by Rafay",
   "main": "bin/index.js",
   "bin": {
