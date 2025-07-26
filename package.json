@@ -1,0 +1,53 @@
+{
+  "name": "google-auth-starter",
+  "version": "1.0.0",
+  "description": "🚀 Google OAuth2 Starter Template CLI – Made with ❤️ by Rafay",
+  "main": "bin/index.js",
+  "bin": {
+    "google-auth-starter": "./bin/index.js"
+  },
+  "type": "module",
+  "keywords": [
+    "google",
+    "oauth2",
+    "starter",
+    "auth",
+    "cli",
+    "rafay",
+    "google-auth",
+    "nodejs",
+    "typescript",
+    "oauth2-cli"
+  ],
+  "author": {
+    "name": "Abdul Rafay",
+    "email": "your@email.com",
+    "url": "https://github.com/git-rafaykhan" 
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/git-rafaykhan/google-auth-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/git-rafaykhan/google-auth-starter/issues"
+  },
+  "homepage": "https://github.com/git-rafaykhan/google-auth-starter#readme",
+  "files": [
+    "bin",
+    "template"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "node bin/index.js",
+    "build": "echo \"Build step not required\"",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "execa": "^7.1.1",
+    "fs-extra": "^11.2.0"
+  }
+}

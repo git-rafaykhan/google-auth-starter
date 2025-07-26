@@ -1,0 +1,26 @@
+# .npmignore
+
+# Don't publish dev configs or backups
+*.log
+*.env
+*.env.*
+
+# IDE/editor folders
+.vscode
+.idea
+
+# Git-related
+.git
+.gitignore
+
+# Node modules
+node_modules
+
+# Test or dev files
+test/
+__tests__/
+.DS_Store
+
+# Examples or docs if not needed
+example/
+docs/
